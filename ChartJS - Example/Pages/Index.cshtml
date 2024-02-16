@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="chart-container" width="600" height="400">
+    <canvas id="barChart"></canvas>
+</div>
+
+<script type="module">
+    document.addEventListener('DOMContentLoaded', (event) => {
+
+        var ctx = document.getElementById('barChart');
+        var myChart = new Chart(ctx, @Html.Raw(Model.ChartJson) );
+    });
+</script>

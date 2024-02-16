@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChartJS - Example", "ChartJS - Example\ChartJS - Example.csproj", "{CA322112-C22B-4DAF-B959-21D77ECBAAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA322112-C22B-4DAF-B959-21D77ECBAAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA322112-C22B-4DAF-B959-21D77ECBAAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA322112-C22B-4DAF-B959-21D77ECBAAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA322112-C22B-4DAF-B959-21D77ECBAAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {613D73C4-80DB-40A0-813A-1B3C2918908B}
+	EndGlobalSection
+EndGlobal
